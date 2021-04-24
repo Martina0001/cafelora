@@ -296,3 +296,13 @@ nav a:hover {
     text-align: center;
   }
 }
+
+/****neviditelný prvek***/
+/***Normálně jsou všechny prvky viditelné, ale když se nastaví visibility: hidden, tak se prvek může vygumovat. Zůstane po něm prázdné místo. V tom se liší od display: none, protože co má display: none, po tom nezůstane ani to místo.
+
+Visibility je méně náročná na výpočet, než display, proto se často používá v javascriptu pro mizení a zobrazování objektů (namísto náročnějšího display).***/
+/***oproti tomu visible=normálně viditelný***/
+
+.nav-btn {
+  visibility: hidden;
+}
