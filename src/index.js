@@ -77,4 +77,26 @@ layers.forEach((layer) => {
   appElm.innerHTML = Layer(layer);
 });
 
-//*7-
+//*7-Nápoj jako komponenta*//
+
+export const Drink = (props) => {
+  const drink = document.createElm('div');
+  drink.classList.add('drink');
+};
+
+//
+const drinkProduct = document.createElm('div');
+drinkProduct.classList.add('drink__product');
+drink.appendChild(drinkProduct);
+
+const drinkCup = document.createElm('img');
+img.src = `/assets/cups/${props.id}.png`;
+drinkCup.appendChild(img);
+
+const drinkInfo = document.createElm('div');
+drinkInfo.classList.add('drink__info');
+drinkProduct.appendChild(drinkInfo);
+
+const DrinkInfoH3 = document.createElm('h3');
+drinkInfoH3.textContent = props.name;
+drinkInfo.appendChild(drinkInfoH3);
