@@ -306,3 +306,12 @@ Visibility je méně náročná na výpočet, než display, proto se často pou�
 .nav-btn {
   visibility: hidden;
 }
+
+/**galerie popis***/
+.galerie {
+  color: white;
+  font-size: 1, 5rem;
+  font-style: italic;
+  text-align: center;
+  padding-top: 2, 5rem;
+}
